@@ -1,0 +1,17 @@
+{
+  "name": "oblurlay",
+  "version": "0.1.1",
+  "main": [],
+  "ignore": [
+    ".*"
+  ],
+  "devDependencies": {
+    "cooker": "~0.4.7"
+  },
+  "exportsOverride": {
+    "cooker": {
+      "css": "dist/css/",
+      "less": "dist/less/"
+    }
+  }
+}

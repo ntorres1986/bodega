@@ -1,0 +1,13 @@
+body.login
+{
+    -moz-transform: scale(.6);
+    -webkit-transform: scale(.6);
+    -o-transform: scale(.6);
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+    -ms-transition: all .9s ease;
+    -o-transition: all .9s ease;
+    transition: all .9s ease;
+    opacity: .0;
+    background-color: rgba(0,0,0,0.9);
+}

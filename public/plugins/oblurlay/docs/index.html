@@ -1,0 +1,32 @@
+---
+layout: base
+title: Implement a blur view of iOS style with css,svg and jquery
+class: site-home
+base_url: "./"
+---
+<main class="masthead " role="main">
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <p class="lead">{{ page.title }}</p>
+    <p><a href="{{ site.repo_url }}" class="button button-border button-lg">Download on GitHub</a></p>
+    {% include social-link.html %}
+    <p>Currently v{{ site.current_version }}  ･  Author :&nbsp; 
+      <span class="icon-blivesta icon-sm"></span>&nbsp;
+      <a href="http://blivesta.com/" target="_blank">blivesta</a>
+    <br>
+    Licensed under the MIT.</p>
+  </div><!-- /.container -->
+</main>
+
+<div class="body">
+  <div class="container">
+
+    <div class="section">
+      <h2 class="section-title">Installation</h2>
+      <div class="section-body">
+        {% include example-setup.html %}
+      </div>
+    </div>
+
+  </div><!-- /.container -->
+</div><!-- /.body -->

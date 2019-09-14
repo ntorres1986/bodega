@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    {% if page.title == site.title %}
+      {{ page.title }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+  {% if page.class == 'home' %}
+  <meta name="description" content="{{ page.title }}">
+  {% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Google analytics -->
+  <script src="//git.blivesta.com/js/ga.js"></script>
+  <!-- icon -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//blivesta.com/ico/touch-icon-144.png">
+  <link rel="shortcut icon" href="//blivesta.com/ico/favicon.ico">
+
+  <!-- Vendor CSS -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:900,100,700,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ page.base_url }}vendor/cooker/css/cooker.css">
+  <link rel="stylesheet" href="{{ page.base_url }}assets/css/docs.css">
+
+  <link rel="stylesheet" href="{{ page.base_url }}css/{{ site.title }}.css">
+
+  <!-- Vendor js -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  
+  <script src="{{ page.base_url }}js/jquery.{{ site.title }}.js"></script>
+  <script>
+   $(document).ready(function() {
+     $('.oblurlay').oblurlay();
+   });  
+  </script>
+</head>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,oBADkB,CAClB,mBAAmB,CAAC;EAClB,OAAO,EAAC,IAAI;CACb;;AAIH,AAAA,WAAW,AAAA,SAAS,CAAC,cAAc,AAAA,MAAM,CAAC;EACxC,OAAO,EAAC,GAAG;EACX,KAAK,EAAC,GAAG;EACT,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "footable.scss"
+    ],
+    "names": [],
+    "file": "footable.css"
+}

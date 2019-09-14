@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAeA,AAAA,YAAY;AACZ,WAAW,AAAA,YAAY,CAAC;EACtB,WAAW,EAAE,IAAI;CAIlB;;AAND,AAGE,YAHU,AAGT,mBAAmB;AAFtB,WAAW,AAAA,YAAY,AAEpB,mBAAmB,CAAC;EACnB,YAAY,EAAE,IAAI;CACnB;;AAMH,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,MAAM;CACf",
+    "sources": [
+        "cover.scss"
+    ],
+    "names": [],
+    "file": "cover.css"
+}
